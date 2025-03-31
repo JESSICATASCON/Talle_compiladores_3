@@ -1,7 +1,7 @@
 package Ejercicios;
 import java.util.*;
 import java.util.regex.*;
-
+//Funcionamiento
 public class AnalizadorLexico {
     private static final Set<String> PALABRAS_RESERVADAS = new HashSet<>(Arrays.asList("int", "float", "double", "if", "while", "return", "public", "class", "static", "void"));
     private static final Set<String> OPERADORES = new HashSet<>(Arrays.asList("+", "-", "*", "/", "=", ">", "<", "==", ">=", "<=", "!="));
